@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: "Google Sans", sans-serif;
+}
+.img-container{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+
+.text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+}
+
+.container {
+     background: #e0efda;
+     padding-top: 25px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card-img {
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.guide-img {
+    width: 200px;
+    object-fit: cover;       
+   
+   
+ }
+.guide {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    gap: 10px;
+    margin: 60px auto;
+    background: #b3dee2;
+    padding: 25px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 6px solid #006ba6;
+}    
+  
